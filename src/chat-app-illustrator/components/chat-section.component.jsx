@@ -50,8 +50,8 @@ const ChatSection =()=>{
                         <Alert info='1 hour walk' amount='$49'/>
                     </div>
                     <div className="w-11/12 h-8 my-2 bg-white flex items-center justify-center rounded-full">
-                        <div className="w-10/12">
-                            <input className="rounded-l-full focus:outline-none" type="text"  placeholder="  Type a message…"/>
+                        <div className="w-10/12 bg-white px-2 rounded-full">
+                            <input className="focus:outline-none h-full" type="text"  placeholder="  Type a message…"/>
                         </div>
                         <div className="rounded-r-full w-2/12 bg-white flex items-center justify-center">
                             <button className="w-6 h-6 bg-purple-900 focus:outline-none transform hover:scale-105 rounded-full text-white">&#10095;</button>
